@@ -2,14 +2,13 @@
 import java.util.*;
 class AddTwoNumbers {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("First number: ");
-        int num1 = scanner.nextInt();
+        int num1 = sc.nextInt();
         System.out.print("Second number: ");
-        int num2 = scanner.nextInt();
+        int num2 = sc.nextInt();
         int sum = num1 + num2;
         System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
-        scanner.close();
     }
 }
 
@@ -19,14 +18,13 @@ class AddThreeNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("First number: ");
-        int num1 = scanner.nextInt();
+        int num1 = sc.nextInt();
         System.out.print("Second number: ");
-        int num2 = scanner.nextInt();
+        int num2 = sc.nextInt();
         System.out.print("Third number: ");
-        int num3 = scanner.nextInt();
+        int num3 = sc.nextInt();
         int Sum = num1 + num2 + num3;
         System.out.println("The total sum of " + num1 + ", " + num2 + ", and " + num3 + " is " + Sum);
-        scanner.close();
     }
 }
 
